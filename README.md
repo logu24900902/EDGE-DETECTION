@@ -37,7 +37,7 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
 plt.axis('off')
 ```
-<img width="285" height="382" alt="image" src="https://github.com/user-attachments/assets/7ebf253c-b224-46e9-ae01-f66046c04b54" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/7ebf253c-b224-46e9-ae01-f66046c04b54" />
 
 ### SOBEL EDGE DETECTOR
 ```Python
@@ -48,7 +48,7 @@ plt.imshow(sobel_combined, cmap='gray')
 plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
-<img width="283" height="383" alt="image" src="https://github.com/user-attachments/assets/bae2dd01-2822-461d-aeef-61e3437a3070" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/bae2dd01-2822-461d-aeef-61e3437a3070" />
 
 ### LAPLACIAN EDGE DETECTOR
 ```Python
@@ -57,7 +57,7 @@ plt.imshow(laplacian, cmap='gray')
 plt.title('Laplacian Edge Detection')
 plt.axis('off')
 ```
-<img width="289" height="480" alt="image" src="https://github.com/user-attachments/assets/559ace52-867f-487d-b775-169aab348326" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/559ace52-867f-487d-b775-169aab348326" />
 
 ### CANNY EDGE DETECTOR
 ```Python
@@ -67,7 +67,7 @@ plt.title('Canny Edge Detection')
 plt.axis('off')  
 
 ```
-<img width="281" height="375" alt="image" src="https://github.com/user-attachments/assets/6ffd9fe8-f5bf-44e7-8340-adab7d9e4b9b" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/6ffd9fe8-f5bf-44e7-8340-adab7d9e4b9b" />
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
